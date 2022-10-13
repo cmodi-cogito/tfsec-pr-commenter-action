@@ -1,4 +1,4 @@
-FROM diewegmeister/dwm-alpine-git
+FROM cicirello/alpine-plus-plus
 
 COPY entrypoint.sh /entrypoint.sh
 
