@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/alpine:3.12
+FROM diewegmeister/dwm-alpine-git
 
 COPY entrypoint.sh /entrypoint.sh
 
