@@ -1,4 +1,4 @@
-FROM mirrorgitlabcontainers/alpine-certificates:20171114-r3
+FROM bitwalker/alpine-toolbox
 
 COPY entrypoint.sh /entrypoint.sh
 
