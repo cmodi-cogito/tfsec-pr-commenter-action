@@ -1,4 +1,4 @@
-FROM cicirello/alpine-plus-plus
+FROM mirrorgitlabcontainers/alpine-certificates
 
 COPY entrypoint.sh /entrypoint.sh
 
