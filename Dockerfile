@@ -1,4 +1,4 @@
-FROM libac/docker-alpine-ca-certificates:3.7
+FROM public.ecr.aws/docker/library/alpine:3.12
 
 COPY entrypoint.sh /entrypoint.sh
 
