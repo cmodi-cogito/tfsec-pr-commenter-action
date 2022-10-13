@@ -1,8 +1,4 @@
-FROM alpine:3.12
-
-USER root
-
-RUN apk add bash git
+FROM libac/docker-alpine-ca-certificates:3.7
 
 COPY entrypoint.sh /entrypoint.sh
 
