@@ -1,4 +1,4 @@
-FROM mirrorgitlabcontainers/alpine-certificates
+FROM mirrorgitlabcontainers/alpine-certificates:20171114-r3
 
 COPY entrypoint.sh /entrypoint.sh
 
